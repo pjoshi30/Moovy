@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="src/" kind="src" path=""/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-6-sun-1.6.0.22"/>
+	<classpathentry kind="lib" path="/media/2C7457705DD85BA3/NetBeans/NLP_5/SentiWordNet/jericho-html-3.1.jar"/>
+	<classpathentry kind="lib" path="/media/2C7457705DD85BA3/NetBeans/NLP_5/SentiWordNet/json-rpc-1.0.jar"/>
+	<classpathentry kind="lib" path="/media/2C7457705DD85BA3/NetBeans/NLP_5/SentiWordNet/stanford-postagger.jar"/>
+	<classpathentry kind="lib" path="/home/preetam/Desktop/weka-3-7-0/weka.jar"/>
+	<classpathentry kind="lib" path="/media/2C7457705DD85BA3/NetBeans/FaceMonkey/controlP5.jar"/>
+	<classpathentry kind="lib" path="/media/2C7457705DD85BA3/NetBeans/FaceMonkey/core.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

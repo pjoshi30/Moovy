@@ -1,0 +1,29 @@
+/* Moovy!
+ * Designed and developed by: Khyati Sheth, Saurabh Shah & Preetam B. Joshi
+ * Desc: A simple semi-semantic approach towards movie review sentiment analysis
+ */
+
+Description:
+
+Moovy! is a simple search tool which queries the Amazon Reviews database through the internet for a given movie. It returns an analysis of the reviews provided for this given movie. It uses a pre-trained classifier along with a senti-wordnet engine to generate a sentiment analysis of each movie and the top three most popularly spoken about actors in the reviews of the given movie. It also pulls twitter feeds from the internet that are relevant to the searched movie. It uses tagcloud, barchart combinations for display. For now, sentiment analysis on twitter feed has not yet been included.
+
+System Requirements:
+
+1. Java: java-6-sun-1.6.0.22 (Do not use the old version of Java. Please make sure you make the change in the  Eclipse IDE)
+2. Platform: Linux (Tested on Ubuntu 10.04 32 bit OS)
+3. Python - 2.6.x and up (Tested with Python 2.6.5)
+4. IMDbPy : http://imdbpy.sourceforge.net/
+5. NLTK: http://www.nltk.org/
+
+Installation & Execution:
+
+1. Make sure you have all the requirements installed mentioned in the above requirements section.
+2. De-compress Final_Project_Moovy.tar.gz. Now, de-compress "Moovy.tar.gz" and open the project in Eclipse. 
+3. Import all the JAR files included in the "Jars_dependent" folder into the Eclipse project.
+4. Go to GUI.java and RUN this file.
+5. Follow instructions on the GUI. Give 3-4 mins for the final output to appear. Time will vary depending on the internet connection, processing speed etc.
+
+*NOTE*: Certain movie choices may not end up with final results due to the lack of reviews present in the amazon reviews website. This problem will be corrected by switching to YUI instead of the current IMDbPy API currently in use.
+
+ 
+				  ********
